@@ -12,7 +12,7 @@ public class Gmail2 {
 
         WebDriver driver=new ChromeDriver();
         driver.get("http://www.gmail.com");
-        //driver.manage().window().maximize();
+        
         driver.findElement(By.id("identifierId")).sendKeys("salmaazam1978@gmail.com", Keys.ENTER);
         Thread.sleep(1000);
         driver.findElement(By.name("password")).sendKeys("spondhon$$", Keys.ENTER);
