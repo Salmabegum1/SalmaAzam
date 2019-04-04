@@ -23,14 +23,14 @@ public class Gmail {
 
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 
-        driver.findElement(By.name("password")).sendKeys("spondhon$$",Keys.ENTER);
+        driver.findElement(By.name("password")).sendKeys("##########",Keys.ENTER);
 
         driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
 
         //Compose
         driver.findElement(By.className("aic")).click();
         Thread.sleep(1000);
-        driver.findElement(By.className("vO")) .sendKeys("Salmabegum78@gmail.com",Keys.ENTER);
+        driver.findElement(By.className("vO")) .sendKeys("#############",Keys.ENTER);
         Thread.sleep(1000);
         driver.findElement(By.className("aoT")).sendKeys("Gmail automation project");
         Thread.sleep(1000);
